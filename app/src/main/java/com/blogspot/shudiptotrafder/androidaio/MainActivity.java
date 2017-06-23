@@ -18,6 +18,11 @@ import com.blogspot.shudiptotrafder.androidaio.string.StringFormatActivity;
 
 import java.util.ArrayList;
 
+/**
+ * AndroidAIO
+ * Created by Shudipto Trafder on 1/10/2017
+ */
+
 public class MainActivity extends AppCompatActivity implements MainAdapter.ItemClickListener {
 
     private ArrayList<SubjectList> arrayList;

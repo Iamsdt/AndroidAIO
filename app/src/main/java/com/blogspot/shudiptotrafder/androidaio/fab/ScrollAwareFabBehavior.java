@@ -9,9 +9,7 @@ import android.view.View;
 
 /**
  * AndroidAIO
- * com.blogspot.shudiptotrafder.androidaio.fab
- * Created by Shudipto Trafder on 1/10/2017 at 9:59 PM.
- * Don't modify without permission of Shudipto Trafder
+ * Created by Shudipto Trafder on 1/10/2017
  */
 
 public class ScrollAwareFabBehavior extends FloatingActionButton.Behavior {

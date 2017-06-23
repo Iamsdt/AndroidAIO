@@ -6,6 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * AndroidAIO
+ * Created by Shudipto Trafder on 1/10/2017
+ */
+
 public class LocationActivity extends AppCompatActivity {
 
     @Override

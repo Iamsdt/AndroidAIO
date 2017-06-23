@@ -17,6 +17,11 @@ import com.blogspot.shudiptotrafder.androidaio.ShowCodeActivity;
 
 import java.util.regex.Pattern;
 
+/**
+ * AndroidAIO
+ * Created by Shudipto Trafder on 1/10/2017
+ */
+
 public class EmailValidationActivity extends AppCompatActivity {
 
     EditText address,subject,mess;

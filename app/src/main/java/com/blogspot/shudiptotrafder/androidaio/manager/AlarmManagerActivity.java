@@ -12,6 +12,11 @@ import com.blogspot.shudiptotrafder.androidaio.R;
 
 import java.util.Calendar;
 
+/**
+ * AndroidAIO
+ * Created by Shudipto Trafder on 1/10/2017
+ */
+
 public class AlarmManagerActivity extends AppCompatActivity {
 
     //todo post alarm manager

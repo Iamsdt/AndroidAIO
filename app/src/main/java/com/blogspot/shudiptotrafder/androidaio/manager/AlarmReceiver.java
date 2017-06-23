@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.widget.Toast;
 
 /**
- * Created by Shudipto on 6/23/2017.
+ * AndroidAIO
+ * Created by Shudipto Trafder on 1/10/2017
  */
 
 public class AlarmReceiver extends BroadcastReceiver {
