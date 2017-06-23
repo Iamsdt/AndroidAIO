@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.shudiptotrafder.androidaio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".email.EmailValidationActivity"></activity>
+        <activity android:name=".ShowCodeActivity"></activity>
+        <activity android:name=".string.StringFormatActivity"></activity>
+        <activity android:name=".fab.FabActivity"></activity>
+        <activity android:name=".manager.AlarmManagerActivity"></activity>
+
+        <!-- Receiver -->
+        <receiver android:name=".manager.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="myAlarmAction"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

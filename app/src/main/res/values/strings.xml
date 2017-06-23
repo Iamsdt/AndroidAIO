@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android AIO</string>
+    <string name="email_des">This example show sending email and also check
+        email is a valid email.
+    </string>
+    <string name="show_code">Code</string>
+
+    <string name="stf">This is an example of runtime change string %1$s</string>
+
+</resources>
